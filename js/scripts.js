@@ -7,15 +7,15 @@
 // Scripts
 // 
 
-document.addEventListener('scroll' , () => {
-  const toTopButton = document.querySelector('#to-top');
+const toTop = document.querySelector(".top-top");
 
-  if (window.scrollY > 200) {
-    toTopButton.classList.add('show');
+window.addEventListener("scroll", () => {
+  if (window.pageYOffset > 200) {
+    toTop.classList.add("active");
   } else {
-    toTopButton.classList.remove('show');
+    toTop.classList.remove("active");
   }
-});
+})
 
 
 
