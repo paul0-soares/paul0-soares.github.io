@@ -7,12 +7,15 @@
 // Scripts
 // 
 
-const scrollToTop = () => {
- window.scrollTo({
-top: 0,
-behavior: 'smooth'
- })
-}
+document.addEventListener('scroll' , () => {
+  const toTopButton = document.querySelector('.btn-top');
+
+  if (window.scrollY > 200) {
+    toTopButton.classList.add('show');
+  } else {
+    toTopButton.classList.remove('show');
+  }
+});
 
 
 
