@@ -87,7 +87,7 @@
   font-size: 18px; /* Increase font size */
 }
 
-#myBtn:hover {
+.myBtn:hover {
   background-color: #555; /* Add a dark-grey background on hover */
 }
 
