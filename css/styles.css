@@ -71,7 +71,7 @@
 }
 
 
-#to-top{
+#to-top {
   position: fixed;
   bottom: 30px;
   right: 30px;
@@ -80,7 +80,7 @@
   font-size: 30px;
   color: black;
   background-color: white;
-  background-radios: 6px;
+  border-radius: 6px;
   display: flex;
   justify-content: center;
   align-items: center;
