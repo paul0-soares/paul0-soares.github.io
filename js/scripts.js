@@ -7,15 +7,29 @@
 // Scripts
 // 
 
-const toTop = document.querySelector(".top-top");
+<script type="text/javascript">
+  $(document).ready(function(){
+     $(window).scroll(function () {
+            if ($(this).scrollTop() > 50) {
+                $('#back-to-top').fadeIn();
+            } else {
+                $('#back-to-top').fadeOut();
+            }
+        });
+        // scroll body to 0px on click
+        $('#back-to-top').click(function () {
+            $('#back-to-top').tooltip('hide');
+            $('body,html').animate({
+                scrollTop: 0
+            }, 800);
+            return false;
+        });
+        
+        $('#back-to-top').tooltip('show');
 
-window.addEventListener("scroll", () => {
-  if (window.pageYOffset > 200) {
-    toTop.classList.add("active");
-  } else {
-    toTop.classList.remove("active");
-  }
-});
+}); 
+
+</script>
 
 
 
