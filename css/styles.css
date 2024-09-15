@@ -69,28 +69,20 @@
 *::after {
   box-sizing: border-box;
 }
-.flex-center{
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            flex-direction: column;
-        }
-        .box {
-            height: 100vh;
-        }
-        .botao-voltar-ao-topo {
-	        position: fixed;
-            bottom: 10px;
-            right: 50px;
-            background: black;
-            border-radius: 10px;
-        }
-        .botao-voltar-ao-topo p {
-	        color: white;
-            margin: 0;
-            padding: 20px;
-          cursor:pointer;
-        }
+ 
+.botao-voltar-ao-topo {
+  position: fixed;
+  bottom: 10px;
+  right: 50px;
+  background: black;
+  border-radius: 10px;
+}
+.botao-voltar-ao-topo p {
+ color: white;
+ margin: 0;
+ padding: 20px;
+ cursor:pointer;
+}
 
 
 @media (prefers-reduced-motion: no-preference) {
