@@ -7,19 +7,12 @@
 // Scripts
 // 
 
-const backToTopButton = document.querySelector('.back-to-top')
-
-const backToTop = () => {
- if (window.scrollY >= 100) {
-backToTopButton.classList.add('show')
- } else {
-backToTopButton.classList.remove('show')
- }
+const scrollToTop = () => {
+ window.scrollTo({
+top: 0,
+behavior: 'smooth'
+ })
 }
-
-window.addEventListener('scroll', function () {
- backToTop()
-})
 
 
 
