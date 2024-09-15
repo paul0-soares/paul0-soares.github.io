@@ -8,12 +8,12 @@
 // 
 
 document.addEventListener('scroll' , () => {
-  const toTopButton = document.querySelector('.btn-top');
+  const btn-topButton = document.querySelector('.btn-top');
 
   if (window.scrollY > 200) {
     btn-topButton.classList.add('show');
   } else {
-    btntopButton.classList.remove('show');
+    btn-topButton.classList.remove('show');
   }
 });
 
