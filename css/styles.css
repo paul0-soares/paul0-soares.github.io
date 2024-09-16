@@ -11423,6 +11423,7 @@ p.lead {
 }
 .social-icons .social-icon:hover {
   background-color: #bd5d38;
+  opacity: 0.5;
 }
 
 .dev-icons {
