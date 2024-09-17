@@ -6,23 +6,18 @@
 //
 // Scripts
 // 
-$(document).ready(function(){
-	$(window).scroll(function () {
-			if ($(this).scrollTop() > 300) {
-				$('#back-to-top').fadeIn();
-			} else {
-				$('#back-to-top').fadeOut();
-			}
-		});
-		// scroll body to 0px on click
-		$('#back-to-top').click(function () {
-			$('body,html').animate({
-				scrollTop: 0
-			}, 400);
-			return false;
-		});
-});
 
+let goTopBtn = document.getElementById("goTopBtn");
+  window.onscroll = function () {
+    scrollFunction();
+};
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrolltop > 20) {
+  goTopBtn.style.display = "flex";
+  } else {
+  goTopBtn.style.display = "none";
+  }
+}
 
 
 window.addEventListener('DOMContentLoaded', event => {
