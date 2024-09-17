@@ -70,14 +70,14 @@
   box-sizing: border-box;
 }
 
-#go-Top {
+#goTopBtn {
   position: fixed;
   right: 15px;
   bottom: 15px;
 }
 a {
   background: red;
-  color $white;
+  color: white;
   width: 50px;
   height: 50px;
   justify-content: center;
