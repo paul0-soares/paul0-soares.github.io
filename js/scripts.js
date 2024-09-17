@@ -7,19 +7,6 @@
 // Scripts
 // 
 
-let goTopBtn = document.getElementById("goTopBtn");
-  window.onscroll = function () {
-    scrollFunction();
-};
-function scrollFunction() {
-  if (document.body.scrollTop > 20 || document.documentElement.scrolltop > 20) {
-  goTopBtn.style.display = "flex";
-  } else {
-  goTopBtn.style.display = "none";
-  }
-}
-
-
 window.addEventListener('DOMContentLoaded', event => {
 
     // Activate Bootstrap scrollspy on the main nav element
