@@ -6,6 +6,11 @@
 //
 // Scripts
 // 
+const d = new Date();
+let year = d.getFullYear();
+document.getElementById("ano").innerHTML = year;
+
+
 
 window.addEventListener('DOMContentLoaded', event => {
 
