@@ -10,4 +10,4 @@
 
 ---
 
- &copy; 2020-2024 - Olá! Eu sou Paulo Soares! :) | [Github](https://github.com/soarespaullo)
+ &copy; 2020 - 2024 - Olá! Eu sou Paulo Soares! :) | [Github](https://github.com/soarespaullo)
